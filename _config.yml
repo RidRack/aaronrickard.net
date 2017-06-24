@@ -6,8 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               Aaron Rickard
-tagline:             'Aaron Rickard'
-description:         'Personal page of Aaron Rickard. Web developer for <a href="https://www.meanbee.com/" target="_blank">Meanbee</a>, cook, and gamer.'
+#tagline:             'Aaron Rickard'
+description:         'Personal page of Aaron Rickard. Web developer for <a href="https://www.meanbee.com/" target="_blank">Meanbee</a>, cooking obsessed, and lover of video games.'
 url:                 https://www.aaronrickard.net/
 baseurl:             ''
 gems:                [jekyll-paginate]
