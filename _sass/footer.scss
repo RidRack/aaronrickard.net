@@ -1,0 +1,48 @@
+.footer-content {
+    background: url('/img/site/footer.png') top left repeat;
+    clear: both;
+    //bottom: 0;
+    //position: absolute;
+    //width: 100%;
+    //height: 140px;
+    flex: 1;
+
+    @include hidpi {
+        background: url('/img/site/footer@2x.png') top left repeat;
+    }
+
+
+}
+.contact {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-item {
+    display: inline-block;
+    margin: 1.6em
+}
+
+.contact-item-link {
+    display: inline-block;
+    padding: 1em 0;
+    text-indent: -9999px;
+    width: 1.2em;
+
+    &.logo-email {
+        background: url('/img/site/mail.svg') center center no-repeat;
+    }
+
+    &.logo-rss {
+        background: url('/img/site/rss.svg') center center no-repeat;
+    }
+
+    &.logo-twitter {
+        background: url('/img/site/twitter.svg') center center no-repeat;
+    }
+
+    &.logo-linkedin {
+        background: url('/img/site/linkedin.svg') center center no-repeat;
+    }
+}

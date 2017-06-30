@@ -1,0 +1,41 @@
+---
+layout: default
+<!--layout: compress-->
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body itemscope itemtype="http://schema.org/WebPage">
+
+    <header role="banner" class="header">
+        <div class="header-content">
+            {% if page.url == "/" %}
+            <h1>
+                {% endif %}
+                <a class="site-title" href="/">
+                </a>
+                {% if page.url == "/" %}
+            </h1>
+            {% endif %}
+
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
+                    <a class="site-navigation-item-link" href="/blog/">Blog</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a class="site-navigation-item-link" href="/projects/">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main role="main" class="main-container{% if page.fullwidth or layout.fullwidth %} full-width{% endif %}">
+        {{ content }}
+    </main>
+
+    <!--<script src="/js/main.js" ></script>-->
+    <!--{% for script in page.js %}-->
+    <!--<script type="text/javascript" src="{{ script }}"></script>-->
+    <!--{% endfor %}-->
+</body>
+</html>

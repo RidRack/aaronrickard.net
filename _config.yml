@@ -18,7 +18,11 @@ paginate_path:       "page:num"
 author:
   name:              Aaron Rickard
   url:               https://www.aaronrickard.net/
-  github:            https://github.com/RidRack/ridrack.github.io
+  github:            https://github.com/RidRack/aaronrickard.net
 
 # Custom vars
 version:             1.0.0
+
+
+#sass:
+#  style: compressed
